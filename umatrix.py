@@ -1,3 +1,4 @@
+# File from https://github.com/iyassou/umatrix
 __version__ = "1.1.2"
 
 eye = lambda order: matrix(*[[int(i==j) for j in range(order)] for i in range(order)])
