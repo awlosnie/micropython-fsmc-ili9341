@@ -34,7 +34,7 @@ lcd.clear(0x0)  # clear screan to black
 lcd.draw_line(0, 0, 240, 320, 0xffff)  # draw white line
 ```
 
-## Run all example
+## Run all examples
 Copy all \*.py files to your board and run following code
 ```python
 from display import ILI9341_8Bit_Fsmc
