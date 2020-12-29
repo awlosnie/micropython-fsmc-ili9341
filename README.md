@@ -5,7 +5,7 @@ The code was tested with an ILI9341 8Bit Parallel LCD display and a DMORE STM32F
 
 ## Pins (wiring)
 ```code
-ILI9341       STMF407VGT6
+ILI9341       STM32F407VGT6
 LCD_RST <---> 3.3V
 LCD_CS  <---> GND
 LCD_RS  <---> PD13
