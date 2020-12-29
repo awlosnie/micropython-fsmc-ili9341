@@ -43,3 +43,5 @@ from display_test import run_all
 lcd = ILI9341_8Bit_Fsmc()  # Create an instance of the class (initializes the LCD display)
 run_all(lcd)  # Run all tests
 ```
+## Run all demo video
+https://streamable.com/gu54zt
