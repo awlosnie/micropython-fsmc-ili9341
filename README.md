@@ -5,7 +5,7 @@ MicroPython scripts to drive a ILI9341 8Bit LCD display with STM32F407 FSMC
 ```code
 ILI9341       STMF407VGT6
 LCD_RST <---> 3.3V
-LCD_CS  <---> PD7
+LCD_CS  <---> GND
 LCD_RS  <---> PD13
 LCD_WR  <---> PD5
 LCD_RD  <---> PD4
