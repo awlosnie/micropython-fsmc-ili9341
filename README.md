@@ -1,6 +1,6 @@
 # micropython-fsmc-ili9341
-MicroPython scripts to drive a ILI9341 8Bit LCD display with STM32F407 FSMC.
-The scripts mostly use the @micropython.viper decorators to speed up the drawing.
+MicroPython scripts to drive a ILI9341 LCD display with STM32F407 FSMC over an 8Bit parallel bus.
+The scripts mostly use the @micropython.viper decorators to get better drawing speeds.
 The code was tested with an ILI9341 8Bit Parallel LCD display and a DMORE STM32F407VGT6 board.
 
 ## Pins (wiring)
