@@ -30,7 +30,7 @@ For a simple example only the `driver.py` and `glcdfont.py` files are required, 
 from display import ILI9341_8Bit_Fsmc
 
 lcd = ILI9341_8Bit_Fsmc()
-lcd.clear(0x0)  # clear screan to black
+lcd.clear(0x0)  # clear screen to black
 lcd.draw_line(0, 0, 240, 320, 0xffff)  # draw white line
 ```
 
